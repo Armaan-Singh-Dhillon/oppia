@@ -3962,15 +3962,16 @@ div.oppia-issues-learner-action {
  description texts for questions getting overflowed in the editor because
  of fixed height given which exceeds after word-break and breaks the view.
 */
+.mat-radio-label-content {
+  text-wrap: wrap
+}
 .mat-radio-group-questions .mat-radio-button .mat-radio-label {
   align-items: flex-start;
 }
 label .mat-radio-label {
   align-items: flex-start;
 }
-.mat-radio-label-content {
-  text-wrap:wrap
-}
+
 .mat-radio-group-questions .mat-radio-button .mat-radio-label .mat-list-item {
   height: auto;
 }
