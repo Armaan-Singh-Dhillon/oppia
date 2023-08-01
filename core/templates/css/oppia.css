@@ -3965,10 +3965,11 @@ div.oppia-issues-learner-action {
 .mat-radio-label-content {
   text-wrap: wrap
 }
-.mat-radio-group-questions .mat-radio-button .mat-radio-label {
+label .mat-radio-label {
   align-items: flex-start;
 }
-label .mat-radio-label {
+
+.mat-radio-group-questions .mat-radio-button .mat-radio-label {
   align-items: flex-start;
 }
 
